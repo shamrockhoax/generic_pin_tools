@@ -43,12 +43,7 @@ KNOB<string> KnobOutputFile(KNOB_MODE_WRITEONCE, "pintool",
  */
 INT32 Usage()
 {
-	cerr << "This tool prints out the number of dynamically executed " << endl <<
-		"instructions, basic blocks and threads in the application." << endl << endl;
 
-	cerr << KNOB_BASE::StringKnobSummary() << endl;
-
-	return -1;
 }
 
 
